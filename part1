@@ -1,0 +1,209 @@
+1.  <!DOCTYPE html>
+    <html>
+    <body>
+     <script>
+     alert( "I’m JavaScript!");
+     </script>
+
+    </body>
+    </html>
+
+2.  <!DOCTYPE html>
+    <html>
+    <body>
+     <script src="/script.js">
+
+     </script>
+    </body>
+    </html>
+    
+    script.js
+    alert("I'm invoked!")
+    
+Explain the below how it works:
+
+1. First an alert box with I'm Javascript! is displayed. Then alert box with Hello message is displayed.
+   In the third alert box Wor and ld is displayed in two different lines. In fourth alert box 6 is displayed.
+   
+Fix the below to alert Guvi geek:
+
+
+1.  let admin=9, fname=10.5; 
+    fname = "Guvi";
+    lname = "geek"
+    admin = fname+ " " + lname;
+    alert( admin );
+
+2. let fname=10.5; 
+    fname = "Guvi";
+    lname = "geek"
+    let name = fname+" "+lname;
+    alert( `hello ${name}` );
+    
+Fix the below to alert sum of two numbers:
+
+1.  let a = prompt("First number?");
+    let b = prompt("Second number?");
+    alert(Number(a) + Number(b));
+    
+
+If you run the below scritpt you will get “Code is Blasted”
+
+Explain Why the Code is blasted and how to diffuse it and get “Diffused":
+
+
+1. Here two strings are being compared and hence 2 is compared with 1 and as 2>1, value of a is true and hence code is blasted.
+   The value of a should be false to get Diffused.
+    var a = "2" < "12";
+    //Don't touch below this
+    if (a) {
+      console.log("Code is Blasted")
+    }
+    else
+    {
+      console.log("Diffused") 
+    }
+    
+    
+ How to get Success in following code?:
+ 
+ 1. If cancel is pressed in the prompt, success is displayed.
+ 
+How to get the correct score in console.
+
+let value = prompt('How many runs you scored in this ball');
+if (value == 4) {
+      console.log("You hit a Four");
+} else if (value == 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+
+Fix the code to welcome the Employee
+
+let login = 'Employee';
+let message = (login == 'Employee') ? 
+   'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
+
+
+Welcome boss:
+
+var message;
+if (null || 2 || undefined )
+{
+ var message = "welcome boss";
+}
+else
+{
+ var message = "Go away";
+}
+  console.log(message);
+  
+
+
+Fix the code to welcome the boss
+
+  var message;
+var lock ;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+  
+  
+Fix the code to welcome the boss
+  
+  var message;
+var lock ;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+
+----------------------------------------------------------
+Change the code to print
+
+3
+
+2
+
+1
+
+let i = 3;
+while (i) {
+  console.log( i-- );
+}
+
+-------------------------------------------------------------
+Change the code to print 1 to 10 in 4 lines
+
+let num = 1;
+while(num<=10){
+    console.log(num);
+    num++
+}
+
+----------------------------------------------------------------
+
+Change the code to print even numbers
+for (let num = 2; num <= 20; num += 2) {
+    console.log(num)
+  }
+  
+------------------------------------------------------------------
+
+Change the code to print all the gifts
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+-------------------------------------------------------------------
+
+Fix the code to disarm the bomb.
+let countdown = 100;
+while (countdown > 1) {
+  countdown--;
+  if(countdown == 0)
+  {
+   console.log("bomb triggered");
+  }
+}
+
+-------------------------------------------------------------------
+
+Whats the msg printed and why?
+hi is printed because, limein is string ans limeout is number. limein gives value of true and prints hi. limeout is false and hence ignored.
+
+-------------------------------------------------------------------
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
